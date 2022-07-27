@@ -48,6 +48,9 @@ st.title('using Machine Learning Algorithms')
 nom_fichier = ["KNN","LR","RandomForest"]
 
 
+#Mon commentaire :-------------------------------------
+
+
 ### Creation d'un volet contenant les 3 modèles
 
 with st.sidebar:
