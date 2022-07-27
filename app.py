@@ -83,7 +83,7 @@ age = st.slider("Enter your age",0, 100)
 # grossesses = st.number_input("Enter your grossesses")
 grossesses = st.number_input("Enter your grossesses",0,10)
 # insuline= st.number_input("Enter your insuline") 
-insuline = st.slider("Enter your insuline",0, 100)
+insuline = st.number_input("Enter your insuline",0, 500)
 
 
 # ##### Normalisation des features################################
