@@ -79,9 +79,9 @@ print(data)
   
  ### Recuperation des features :
 # age = st.number_input("Enter your age") 
-age = st.slider("Enter your age",data['age'].min(), data['age'].max())
+age = st.slider("Enter your age",0, 100)
 # grossesses = st.number_input("Enter your grossesses")
-grossesses = st.number_input("Enter your grossesses",data['grossesses'].min(), data['grossesses'].max())
+grossesses = st.number_input("Enter your grossesses",0,10)
 # insuline= st.number_input("Enter your insuline") 
 insuline = st.slider("Enter your insuline",data['insuline'].min(), data['insuline'].max())
 
