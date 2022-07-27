@@ -81,7 +81,7 @@ print(data)
 # age = st.number_input("Enter your age") 
 age = st.slider("Enter your age",0, 100)
 # grossesses = st.number_input("Enter your grossesses")
-grossesses = st.number_input("Enter your grossesses",0,10)
+grossesses = st.number_input("Enter your grossesses",0,20)
 # insuline= st.number_input("Enter your insuline") 
 insuline = st.number_input("Enter your insuline",0, 500)
 
